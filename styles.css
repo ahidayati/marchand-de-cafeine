@@ -1,7 +1,16 @@
 body {
 margin: 0;
+text-align: center;
 }
 
+
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+/* title section */
 #title {
   background-image: url("images/beans4.png");
   background-position: center center;
@@ -12,9 +21,46 @@ margin: 0;
 
 .welcome-page {
   text-align: center;
-  padding: 25% 10%;
+  padding: 18% 10%;
 }
 
 .welcome-page-text {
-  color: #ffffff;
+  color: #000000;
+  font-size: 4rem;
+  margin: 0 15%;
+  padding: 5% 0;
+}
+
+/* about section */
+.image-for-about {
+  width: 100%;
+}
+
+/* concept section */
+.concept-image {
+  width: 70%;
+}
+
+/* menu section*/
+.image-for-menu {
+  width: 100%;
+}
+
+/* contact section */
+#contact {
+  padding: 10% 0;
+  background-image: url("images/cup-beans6.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-text-box {
+  padding: 2% 0 2% 2%;
+  text-align: left;
+}
+
+.transparent-box {
+  background-color: #ffffff;
+  opacity: 0.5;
 }

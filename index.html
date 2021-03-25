@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="styles.css">
 
   <!-- google font -->
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Hind+Guntur:wght@300;400&display=swap" rel="stylesheet">
 
   <!-- fontawesome script -->
 
@@ -31,10 +32,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Concept</a>
-          <a class="nav-link" href="#">Menu</a>
-          <a class="nav-link" href="#">Horaires & Contact</a>
+          <a class="nav-link" href="#concept">Histoire</a>
+          <a class="nav-link" href="#menu">Carte</a>
+          <a class="nav-link" href="#contact">Horaires & Contact</a>
         </div>
       </div>
     </div>
@@ -59,13 +59,13 @@
     <div class="container">
     <div class="row">
 
-      <div class="col-lg-6">
-      <h3>L'HISTOIRE</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+      <div class="col-lg-5">
+      <h2>L'HISTOIRE</h2>
+      <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
 
       <div class="col-lg-6">
-      <img class="image-for-about" src="images/cup-beans4.png" alt="coffee-image">
+      <img class="about-image" src="images/cup-beans4.png" alt="coffee-image">
       </div>
 
     </div>
@@ -75,30 +75,30 @@
 
     <!-- Concept -->
 
-    <section id="Concept">
+    <section id="concept">
     <div class="container">
     <div class="row">
 
 
 
-      <h3>LES VALEURS</h3>
+      <h2>LES VALEURS</h2>
 
       <div class="col-lg-4">
       <img class="concept-image" src="images/cup-pourring-cropped.png" alt="cup-pourring-image">
-      <h2>Gourmandise</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <h4>Gourmandise</h4>
+      <p class="concept-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
       </div>
 
       <div class="col-lg-4">
       <img class="concept-image" src="images/machine-cropped.png" alt="machine-image">
-      <h2>Innovante</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <h4>Innovante</h4>
+      <p class="concept-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
       </div>
 
       <div class="col-lg-4">
       <img class="concept-image" src="images/beans-jar-cropped.png" alt="beans-jar-image">
-      <h2>Convivialité</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <h4>Convivialité</h4>
+      <p class="concept-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
       </div>
 
     </div>
@@ -114,15 +114,15 @@
 
 
     <div class="col-lg-6">
-      <img class="image-for-menu" src="images/three-cups.png" alt="coffee-image">
+      <img class="menu-image" src="images/three-cups.png" alt="coffee-image">
     </div>
 
-    <div class="col-lg-6">
-    <h2>MENU</h2>
+    <div class="col-lg-3 menu-table">
+    <h2 class="menu-header">LA CARTE</h2>
     <table>
 
     <tr>
-    <th>Coffee</th>
+    <th colspan="2">Les Cafés</th>
     <th></th>
     </tr>
 
@@ -150,7 +150,7 @@
         </tr>
 
     <tr>
-    <th>Frappe</th>
+    <th colspan="2">Les Frappés</th>
     <th></th>
     </tr>
 
@@ -197,7 +197,7 @@
       <h3>CONTACT</h3>
       <p>Adresse 123 rue Partout Ville Pays 99999</p>
       <p>E-mail bonjour@labonnesite.com</p>
-      <p>Téléphone 12.34.56.78.89</p>
+      <p>Téléphone 12.34.56.78.99</p>
       </div>
 
       <div class="col-lg-6">
@@ -205,16 +205,17 @@
 
     </div>
     </div>
-    </section>
 
+    </section>
 
     <!-- Footer -->
 
     <footer id="footer">
 
-      <p>© Copyright 2021 Marchand de Caféine. </p>
+      <p class="footer-text">© Copyright 2021 Marchand de Caféine. </p>
 
     </footer>
+
 
     <!-- bootstrap scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>

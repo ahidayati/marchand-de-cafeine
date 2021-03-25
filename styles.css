@@ -1,9 +1,13 @@
 body {
 margin: 0;
 text-align: center;
+font-family: 'Hind Guntur', sans-serif;
 }
 
-
+h2, h3, h4 {
+  font-family: 'DM Sans', sans-serif;
+  margin: 3% 0;
+}
 
 li {
   list-style: none;
@@ -21,34 +25,66 @@ li {
 
 .welcome-page {
   text-align: center;
-  padding: 18% 10%;
+  padding: 15% 10% 18%;
 }
 
 .welcome-page-text {
   color: #000000;
+  font-weight:bolder;
   font-size: 4rem;
   margin: 0 15%;
-  padding: 5% 0;
+  padding: 5% 0 3%;
+  line-height: 1;
 }
 
 /* about section */
-.image-for-about {
-  width: 100%;
+#about {
+  background-color: #f8f4e1;
+  padding: 10% 10%;
+}
+.about-image {
+  width: 120%;
+}
+
+.about-text {
+  text-align: justify;
 }
 
 /* concept section */
+#concept {
+  background-color: #897853;
+  padding: 7% 10%;
+}
 .concept-image {
   width: 70%;
+  margin: 3% 0;
+}
+.concept-text {
+  text-align: justify;
+  margin: 0 3%;
 }
 
 /* menu section*/
-.image-for-menu {
-  width: 100%;
+#menu {
+  background-color: #f8f4e1;
+  padding: 7% 10%;
+}
+.menu-image {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 120%;
+}
+.menu-header {
+  padding: 0 0 3%;
+}
+.menu-table {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* contact section */
 #contact {
-  padding: 10% 0;
+  padding: 7% 10% 5%;
   background-image: url("images/cup-beans6.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -63,4 +99,15 @@ li {
 .transparent-box {
   background-color: #ffffff;
   opacity: 0.5;
+}
+
+/* footer section */
+#footer {
+  background-color: #1c1427;
+}
+
+.footer-text {
+  color: #f8f4e1;
+  margin-bottom: 0;
+  line-height: normal;
 }

@@ -90,10 +90,13 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .contact-text-box {
-  padding: 2% 0 2% 2%;
+  padding: 1% 0 2% 2%;
   text-align: left;
+}
+.social-logo {
+  margin: 0 2%;
+  font-size: 1.2rem;
 }
 
 .transparent-box {
